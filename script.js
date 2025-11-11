@@ -23,6 +23,6 @@
   // Dynamic year in footer
   const footerP = document.querySelector('footer p');
   if (footerP) {
-    footerP.textContent = `© ${new Date().getFullYear()} John Doe`;
+    footerP.textContent = `© ${new Date().getFullYear()} John Russell`;
   }
 })();
