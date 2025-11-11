@@ -1,5 +1,5 @@
 (function () {
-  // Simple contact form handler (demo)
+  // Code to handle the contact form
   const form = document.getElementById('contact-form');
   if (form) {
     form.addEventListener('submit', (e) => {
@@ -13,13 +13,11 @@
         return;
       }
 
-      // Demo behavior: log and show a thank-you message, then reset form.
+      // To log and show a thank-you message, then reset the form.
       console.log('Contact form submitted:', { name, email, message });
       alert(`Thanks, ${name}! Your message was sent (demo).`);
       form.reset();
 
-      // If you add a backend later, replace the demo block with fetch()/XHR to send data.
-    });
   }
 
   // Dynamic year in footer
