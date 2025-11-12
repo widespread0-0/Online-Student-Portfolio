@@ -1,5 +1,5 @@
 (function () {
-  // Code to handle the contact form
+  // Code to handle contact form
   const form = document.getElementById('contact-form');
   if (form) {
     form.addEventListener('submit', (e) => {
@@ -17,7 +17,7 @@
       console.log('Contact form submitted:', { name, email, message });
       alert(`Thanks, ${name}! Your message was sent (demo).`);
       form.reset();
-
+    });
   }
 
   // Dynamic year in footer
