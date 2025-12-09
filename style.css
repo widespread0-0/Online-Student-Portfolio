@@ -1,3 +1,4 @@
+/* General Reset */ 
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   line-height: 1.6;
 }
 
+/* Header */
 header {
   background: #0077b6;
   color: #fff;
@@ -27,7 +29,7 @@ header p {
   font-size: 0.95rem;
 }
 
-
+/* Profile picture */
 #profile-pic {
   display: block;
   width: 120px;
@@ -39,7 +41,7 @@ header p {
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
-
+/* Main wrapper */
 .main-wrapper {
   display: flex;
   max-width: 1200px;
@@ -47,6 +49,7 @@ header p {
   gap: 2rem;
 }
 
+/* Sidebar */
 .sidebar {
   width: 200px;
   padding: 2rem 1rem;
@@ -76,13 +79,13 @@ header p {
   background: #e3f2fd;
 }
 
-
+/* Main content */
 main {
   flex: 1;
   padding: 2rem 1rem;
 }
 
-
+/* Sections */
 section {
   margin-bottom: 2rem;
 }
@@ -92,6 +95,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* Skills */
 #skills ul {
   list-style: none;
   display: grid;
@@ -106,6 +110,7 @@ h2 {
   text-align: center;
 }
 
+/* Projects */
 .project-card {
   background: #fff;
   border: 1px solid #ddd;
@@ -128,6 +133,7 @@ h2 {
   text-decoration: underline;
 }
 
+/* Contact Form */
 form {
   display: flex;
   flex-direction: column;
@@ -164,6 +170,7 @@ button:hover {
   background: #005f86;
 }
 
+/* Footer */
 footer {
   background: #0077b6;
   color: #fff;
