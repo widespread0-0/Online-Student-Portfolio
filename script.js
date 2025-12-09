@@ -20,7 +20,7 @@
     });
   }
 
-  // Dynamic year in footer
+
   const footerP = document.querySelector('footer p');
   if (footerP) {
     footerP.textContent = `© ${new Date().getFullYear()} Michael Jackson`;-
